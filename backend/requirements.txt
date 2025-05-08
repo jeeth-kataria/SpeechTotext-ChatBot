@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+python-multipart    # For file uploads
+openai-whisper
+google-generativeai # Or your local LLM library
+# python-dotenv (if using .env for API keys)

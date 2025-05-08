@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary audio files
+temp_audio_files/
+
+# Secrets - VERY IMPORTANT if you were using .env here
+.env
+
+# IDE specific (if any inside backend)
+.idea/
+.vscode/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg

@@ -1,0 +1,18 @@
+# General
+.DS_Store
+*.log
+*.swo
+*.swp
+
+# IDE specific
+.idea/
+.vscode/
+*.iml
+
+# Python general (some might be duplicated in backend's gitignore but that's fine)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
